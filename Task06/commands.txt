@@ -1,0 +1,7 @@
+Run and save actual outputs:
+lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS
+sudo fdisk -l
+swapon --show
+free -h
+# Optional, only if fio is installed and you have a suitable test file:
+fio --name=seqread --filename=/path/to/testfile --rw=read --bs=1M --size=1G --direct=1 --iodepth=1 --runtime=30 --time_based
