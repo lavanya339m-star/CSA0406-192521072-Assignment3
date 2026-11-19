@@ -1,0 +1,8 @@
+Design budget worksheet (fill with actual measured/approved values):
+Physical RAM: 2048 MB
+ML task requested: up to 1500 MB
+Control task locked reservation: ______ MB
+Logging buffers: ______ MB
+Kernel/OS and safety reserve: ______ MB
+Available ML budget after reservations: ______ MB
+A fourth 500 MB task must be admitted only if the total budget remains within 2048 MB.
